@@ -2,6 +2,7 @@
 Schrijf een javascript app waarmee we de afbetaling van een hypotheek kunnen berekenen. <br>
 
 formule hypotheek met annuiteiten
+### maandrente = (rente/100)/12
 ### annuïteit = (maandrente / (1 - ((1 + maandrente) ^ - aantal periodes))) * hypotheekbedrag
 #### ^ = machtsverheffing = Math.pow()
 * Splits zo veel mogelijk logica in in functies
