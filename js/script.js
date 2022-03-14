@@ -1,4 +1,7 @@
 "use strict";
+
+//declare globals
+
 /**
  * formule hypotheek met annuiteiten
  * annuïteit = (maandrente / (1 - ((1 + maandrente) ^ - aantal periodes))) * hypotheekbedrag
@@ -8,10 +11,9 @@
  * splits de functies af in een afzonderlijke function file
  */
 //declare global vars here
-window.addEventListener('load',Initialize);
+window.addEventListener('load',initialize);
 
-function Initialize()
-{
+function initialize() {
    
 }
 
