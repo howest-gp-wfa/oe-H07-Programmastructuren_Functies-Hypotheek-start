@@ -3,6 +3,7 @@ Schrijf een javascript app waarmee we de afbetaling van een hypotheek kunnen ber
 
 ## formule hypotheek met annuiteiten
  * maandrente = (jaarrente/100)/12
+ * aantal_periodes = aantalJaar * 12
  * annuïteit = (maandrente / (1 - ((1 + maandrente) <sup> -aantal periodes</sup>))) * hypotheekbedrag
 
 ## Opdracht
